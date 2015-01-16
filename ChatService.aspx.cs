@@ -11,8 +11,8 @@ namespace Automated_Live_Chat_Demo
         {
             Agent = new ChatAgent
             {
-                ServiceUrl = "http://localhost:50977/ChatService.aspx",
-                ResourceUrl = "http://localhost:50977/Assistant",
+                ServiceUrl = "http://localhost:50977/ChatService.aspx", //Change localhost:50977 to your Website URL
+                ResourceUrl = "http://localhost:50977/Assistant", //Change localhost:50977 to your Website URL
                 Name = "Maya",
                 Title = "Syn Web Assistant",
                 Intro = "Hi I am Maya, I am here to help you with your questions.",

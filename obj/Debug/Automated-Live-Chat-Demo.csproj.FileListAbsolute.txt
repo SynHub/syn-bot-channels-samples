@@ -8,3 +8,13 @@ E:\Documents\Laz\Documents\Visual Studio 2012\Projects\Automated-Live-Chat-Demo\
 E:\Documents\Laz\Documents\Visual Studio 2012\Projects\Automated-Live-Chat-Demo\Automated-Live-Chat-Demo\bin\Syn.Bot.dll
 E:\Documents\Laz\Documents\Visual Studio 2012\Projects\Automated-Live-Chat-Demo\Automated-Live-Chat-Demo\bin\Syn.Automation.Chat.pdb
 E:\Documents\Laz\Documents\Visual Studio 2012\Projects\Automated-Live-Chat-Demo\Automated-Live-Chat-Demo\bin\Syn.Bot.xml
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\bin\Automated-Live-Chat-Demo.dll.config
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\bin\Automated-Live-Chat-Demo.dll
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\bin\Automated-Live-Chat-Demo.pdb
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\bin\Syn.Automation.Chat.xml
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\bin\Syn.Bot.xml
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\obj\Debug\Automated-Live-Chat-Demo.csprojResolveAssemblyReference.cache
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\obj\Debug\Automated-Live-Chat-Demo.dll
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\obj\Debug\Automated-Live-Chat-Demo.pdb
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\bin\Syn.Automation.Chat.dll
+E:\Documents\Laz\Documents\GitHub\Automated-Live-Chat-Demo\bin\Syn.Bot.dll
