@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Automated Live Chat Demo</title>
 </head>
-<body style="background-image:url(background.jpg)">
+<body style="background-image: url(background.jpg)">
     <form id="form1" runat="server">
         <div>
         </div>
