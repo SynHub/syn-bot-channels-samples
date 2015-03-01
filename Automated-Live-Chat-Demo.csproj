@@ -44,13 +44,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Syn.Automation.Chat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Syn.Automation.Chat, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\SynChat.1.0.1\lib\net45\Syn.Automation.Chat.dll</HintPath>
+      <HintPath>packages\SynChat.1.0.2\lib\net45\Syn.Automation.Chat.dll</HintPath>
     </Reference>
-    <Reference Include="Syn.Bot, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Syn.Bot, Version=1.0.8.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\SynBot.1.0.61\lib\portable-net45+sl5+wp8+win8\Syn.Bot.dll</HintPath>
+      <HintPath>packages\SynBot.1.0.81\lib\portable-net45+sl5+wp8+win8\Syn.Bot.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />

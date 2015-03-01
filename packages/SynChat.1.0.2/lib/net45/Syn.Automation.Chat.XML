@@ -4,6 +4,16 @@
         <name>Syn.Automation.Chat</name>
     </assembly>
     <members>
+        <member name="T:Syn.Automation.Chat.ChatAgent">
+            <summary>
+            Simple class for adding Syn Web Assistant technology to ASP.NET websites.
+            </summary>
+        </member>
+        <member name="M:Syn.Automation.Chat.ChatAgent.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:Syn.Automation.Chat.ChatAgent"/> class.
+            </summary>
+        </member>
         <member name="M:Syn.Automation.Chat.ChatAgent.Process(System.Web.HttpRequest,System.Web.HttpResponse)">
             <summary>
             Processes the given request and writes the appropriate response.

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web;
 using Syn.Automation.Chat;
 
 namespace Automated_Live_Chat_Demo
@@ -9,10 +10,11 @@ namespace Automated_Live_Chat_Demo
         private static readonly ChatAgent Agent;
         static ChatService()
         {
+            var websiteUrl = HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Authority);
             Agent = new ChatAgent
             {
-                ServiceUrl = "http://localhost:50977/ChatService.aspx", //Change localhost:50977 to your Website URL
-                ResourceUrl = "http://localhost:50977/Assistant", //Change localhost:50977 to your Website URL
+                ServiceUrl = websiteUrl + "/ChatService.aspx", 
+                ResourceUrl = websiteUrl + "/Assistant", 
                 Name = "Maya",
                 Title = "Syn Web Assistant",
                 Intro = "Hi I am Maya, I am here to help you with your questions.",

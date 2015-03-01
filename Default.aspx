@@ -15,7 +15,7 @@
                 var scriptElement = document.createElement('script');
                 scriptElement.type = 'text/javascript';
                 scriptElement.async = true;
-                scriptElement.src = 'http://localhost:50977/ChatService.aspx?Get=Script'; //Change localhost:50977 to your Website URL
+                scriptElement.src = '/ChatService.aspx?Get=Script'; 
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(scriptElement);
             })();
         </script>
