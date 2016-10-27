@@ -22,6 +22,7 @@
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
     <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,16 +44,38 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Syn.Automation.Chat, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\SynChat.1.0.2\lib\net45\Syn.Automation.Chat.dll</HintPath>
+    <Reference Include="Jint, Version=2.9.1.0, Culture=neutral, PublicKeyToken=2e92ba9c8d81157f, processorArchitecture=MSIL">
+      <HintPath>packages\Jint.2.9.1\lib\portable-net40+sl50+win+WindowsPhoneApp81+wp80\Jint.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Syn.Bot, Version=1.0.8.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\SynBot.1.0.81\lib\portable-net45+sl5+wp8+win8\Syn.Bot.dll</HintPath>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syn.Bot, Version=1.2.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Syn.Bot.1.2.6\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Syn.Bot.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syn.Bot.Assistant, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Syn.Bot.Assistant.1.0.0\lib\net45\Syn.Bot.Assistant.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syn.Log, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Syn.Log.1.0.4\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Syn.Log.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syn.VA, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Syn.VA.1.0.6\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Syn.VA.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +90,10 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telegram.Bot, Version=10.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Telegram.Bot.10.4.0\lib\net45\Telegram.Bot.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assistant\Avatar_Large.png" />

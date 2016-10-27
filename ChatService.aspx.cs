@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Web;
-using Syn.Automation.Chat;
+using Syn.Bot.Assistant.Web;
 
 namespace Automated_Live_Chat_Demo
 {
     public partial class ChatService : System.Web.UI.Page
     {
-
-        private static readonly ChatAgent Agent;
+        private static readonly WebAssistant WebAssistant;
         static ChatService()
         {
             var websiteUrl = HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Authority);
-            Agent = new ChatAgent
+            WebAssistant = new WebAssistant
             {
                 ServiceUrl = websiteUrl + "/ChatService.aspx", 
                 ResourceUrl = websiteUrl + "/Assistant", 
@@ -28,7 +27,7 @@ namespace Automated_Live_Chat_Demo
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Agent.Process(Request, Response);
+            WebAssistant.Process(Request, Response);
         }
     }
 }

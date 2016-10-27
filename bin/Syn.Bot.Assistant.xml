@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syn.Bot.Assistant</name>
+    </assembly>
+    <members>
+        <member name="T:Syn.Bot.Assistant.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Properties.Resources.Html">
+             <summary>
+               Looks up a localized string similar to &lt;!--Property of Synthetic Intelligence Network ( Syn.co.in )--&gt;
+            &lt;div id=&quot;SynWeb&quot; class=&quot;Syn_Window ui-resizable Syn_Minimized Syn_DragHandle&quot; style=&quot;visibility: visible;&quot;&gt;
+                &lt;div class=&quot;Syn_ShadowElement&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;Syn_Agent&quot;&gt;
+                    &lt;div class=&quot;Syn_Title Syn_DragHandle&quot;&gt;
+                        &lt;div class=&quot;Syn_MoveButton&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;Syn_CloseButton&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;Syn_MaximizeButton&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;Syn_MinimizeButton&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;di [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Properties.Resources.Script">
+            <summary>
+              Looks up a localized string similar to (function(){function i(e,t){var n=document.createElement(&quot;script&quot;);n.src=e;n.onreadystatechange=n.onload=function(){var e=n.readyState;if(!t.done&amp;&amp;(!e||/loaded|complete/.test(e))){t.done=true;t()}};document.head.appendChild(n)}function s(e,t){var n=document.createElement(&quot;link&quot;);n.rel=&quot;stylesheet&quot;;n.href=e;n.onreadystatechange=n.onload=function(){var e=n.readyState;if(!t.done&amp;&amp;(!e||/loaded|complete/.test(e))){t.done=true;t()}};document.head.appendChild(n)}var e,t,n,r;n=function(){var e=document.createElemen [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Properties.Resources.Silver">
+            <summary>
+              Looks up a localized string similar to #SynWeb .Syn_Footer .Syn_Footer_Link{font-size:11px;margin:0;padding-left:5px;font-family:Arial,sans-serif;font-weight:700;text-decoration:none;color:rgba(0,0,0,0.58)}#SynWeb{width:380px;height:490px;font-family:&quot;Arial&quot;,sans-serif;z-index:9999;position:fixed;bottom:20px;right:20px;bottom:20px;right:20px;border-width:0}#SynWeb .Syn_Agent{background-color:#f6f6f6;position:absolute;left:0;top:0;width:100%;height:100%;border:0}#SynWeb html,#SynWeb body,#SynWeb div,#SynWeb span,#SynWeb applet,#SynWeb object,#Syn [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="T:Syn.Bot.Assistant.Telegram.TelegramAssistant">
+            <summary>
+            Tailored class for deploying SIML based Bot on Telegram.
+            </summary>
+        </member>
+        <member name="M:Syn.Bot.Assistant.Telegram.TelegramAssistant.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syn.Bot.Assistant.Telegram.TelegramAssistant"/> class.
+            </summary>
+            <param name="accessToken">The Bot access token.</param>
+        </member>
+        <member name="M:Syn.Bot.Assistant.Telegram.TelegramAssistant.#ctor(System.String,Syn.Bot.Siml.SimlBot)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syn.Bot.Assistant.Telegram.TelegramAssistant"/> class.
+            </summary>
+            <param name="accessToken">The Bot access token.</param>
+            <param name="bot">The <see cref="T:Syn.Bot.Siml.SimlBot"/> instance.</param>
+        </member>
+        <member name="M:Syn.Bot.Assistant.Telegram.TelegramAssistant.RemoveQueryHandlers">
+            <summary>
+            Removes the automatically added query handlers.
+            </summary>
+            <remarks>The developer should manually handle all queries after calling this method.</remarks>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Telegram.TelegramAssistant.ServiceTimer">
+            <summary>
+            Gets the service timer.
+            </summary>
+            <value>
+            The service timer.
+            </value>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Telegram.TelegramAssistant.AccessToken">
+            <summary>
+            Gets the access token.
+            </summary>
+            <value>
+            The access token.
+            </value>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Telegram.TelegramAssistant.Bot">
+            <summary>
+            Gets the bot.
+            </summary>
+            <value>
+            The bot.
+            </value>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Telegram.TelegramAssistant.Client">
+            <summary>
+            Gets the client.
+            </summary>
+            <value>
+            The client.
+            </value>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Telegram.TelegramAssistant.KeyboardAlignment">
+            <summary>
+            Gets or sets the keyboard alignment.
+            </summary>
+            <value>
+            The keyboard alignment.
+            </value>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Telegram.TelegramAssistant.ParseMode">
+            <summary>
+            Gets or sets the parse mode.
+            </summary>
+            <value>
+            The parse mode.
+            </value>
+        </member>
+        <member name="M:Syn.Bot.Assistant.Telegram.TelegramAssistant.HandleQuery(Syn.Bot.Assistant.Telegram.TelegramQuery)">
+            <summary>
+            Handles the query received by the Telegram Bot.
+            </summary>
+            <param name="query">The query.</param>
+        </member>
+        <member name="T:Syn.Bot.Assistant.Web.WebAssistant">
+            <summary>
+            Tailored class for adding Syn Web Assistant widget to ASP.NET websites.
+            </summary>
+        </member>
+        <member name="M:Syn.Bot.Assistant.Web.WebAssistant.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:Syn.Bot.Assistant.Web.WebAssistant"/> class.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.Bot">
+            <summary>
+            Instance of the Bot used by this Agent.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.Name">
+            <summary>
+            Name of the Web Assistant.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.Title">
+            <summary>
+            Web Assistant's title displayed below the Web Assistant's name.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.Intro">
+            <summary>
+            Default Web Assistant's message.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.InputText">
+            <summary>
+            Default text for input box.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.Footer">
+            <summary>
+            Text of the footer.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.FooterLink">
+            <summary>
+            Link to open when the footer text is clicked.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.ServiceUrl">
+            <summary>
+            Full URL path to the Chat Service.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.ResourceUrl">
+            <summary>
+            URL Directory location to look for image files and SIML package.
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.PackageFileName">
+            <summary>
+            Package File name with extension. Example "Package.txt".
+            </summary>
+        </member>
+        <member name="P:Syn.Bot.Assistant.Web.WebAssistant.RestartId">
+            <summary>
+            Value of the Get URL variable to reload the SIML Package.
+            </summary>
+        </member>
+        <member name="M:Syn.Bot.Assistant.Web.WebAssistant.Process(System.Web.HttpRequest,System.Web.HttpResponse)">
+            <summary>
+            Processes the given request and writes the appropriate response.
+            </summary>
+            <param name="request">Html request to process.</param>
+            <param name="response">Html response to write to.</param>
+        </member>
+    </members>
+</doc>
