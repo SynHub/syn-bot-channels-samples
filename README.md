@@ -8,3 +8,8 @@ This is an example Project that demonstrate as to how you can add the SynChat pa
 4. Additionally an SIML Package that is used for demonstration only and will repeat what the user types.
 
 To find out more about SIML and Automated Live Chat, please visit wiki.syn.co.in
+
+
+# Deprecated
+
+This sample project no longer uses the latest framework for web based bot deployment. Please use **Syn.Bot.Channels** framework instead.
