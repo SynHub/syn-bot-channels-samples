@@ -10,6 +10,6 @@ This is an example Project that demonstrate as to how you can add the SynChat pa
 To find out more about SIML and Automated Live Chat, please visit wiki.syn.co.in
 
 
-# Deprecated
+# Obsolete
 
 This sample project no longer uses the latest framework for web based bot deployment. Please use **Syn.Bot.Channels** framework instead. Refer [Syn.Bot.Channels Sample](https://github.com/SynHub/syn-bot-channel-samples).
