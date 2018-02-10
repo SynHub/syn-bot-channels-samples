@@ -6,7 +6,7 @@ Based on new updates, we will keep updating the content of the repository accord
 
 ## Projects
 
-All projects must be compiled under *Debug* Mode to ensure any to all necessary files are loaded properly from with the *debug\bin* directory.
+All projects must be compiled under *Debug* Mode to ensure any to all necessary files are loaded properly from within the *debug\bin* directory.
 
 **1. WebApiChannelSample**
 
@@ -16,6 +16,6 @@ This project demonstrates how you can host your own OSCOVA based Bot server.
 
 This sample project demonstrates how SIML and OSCOVA based bots can be deployed to Telegram for textual conversation.
 
-**3. WebChannelSample**
+**3. WidgetChannelSample**
 
-This is a *legacy* project that demonstrates how a simple widget based web assistant can be deployed on your ASP.NET Website.
+This sample project demonstrates how SIML and OSCOVA based bots can be deployed on your ASP.NET Website via a Widget interface.

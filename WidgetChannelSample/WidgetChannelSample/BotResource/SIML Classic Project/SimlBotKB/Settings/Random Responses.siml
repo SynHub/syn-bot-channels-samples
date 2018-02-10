@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--Random: Defines a collection of random items that can be used using the "Name" specified-->
+  <!--Phrase: Defines a collection of predictive-random items that can be used using the "Name" specified-->
+  <!--Important: A Phrase element CANNOT be used within Repeat element. Refer Repetition-->
+</Siml>

@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChatService.aspx.cs" Inherits="WebChannelSample.ChatService" %>

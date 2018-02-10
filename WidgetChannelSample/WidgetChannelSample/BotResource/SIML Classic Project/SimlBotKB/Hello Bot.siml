@@ -1,0 +1,15 @@
+﻿<Siml>
+  <Concept Name="Introduction">
+    
+    <Model>
+      <Pattern>/START</Pattern>
+      <Response>Hello there! I am SIML Classic</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>*</Pattern>
+      <Response>You typed: "<Match />"</Response>
+    </Model>
+    
+  </Concept>
+</Siml>

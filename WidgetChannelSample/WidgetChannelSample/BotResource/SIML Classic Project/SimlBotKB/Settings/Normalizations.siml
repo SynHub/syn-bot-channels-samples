@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <!--Splitter: This splitter element is used split sentences into different Input values for processing.-->
+  <!--Text: Splits the user input wherever the given character or sequence of characters are found. -->
+  <!--Word: Splits the user input wherever the given word ( separated by SPACE ) is found.-->
+  <!--Regex: Splits the user input wherever the given Regular Expression matches.-->
+  <!--Note: The order/priority of splitting the user input is proportional to the order of elements within this Splitter element-->
+  <Splitter>
+    <Text>.</Text>
+    <Text>?</Text>
+    <Text>!</Text>
+    <Text>;</Text>
+  </Splitter>
+  <!--Filter: Filters here are used to filter user input BEFORE its processed. You may use <Text>, <Word> and <Regex> tags.-->
+  <!--Text: Text element is used to filter all occurance of a the specified text within the input-->
+  <!--Word: Word element is used to filter individual words that may be separated by a SPACE character-->
+  <!--Regex: Regular Expression that is used to replace textual strings wherever a pattern is matched-->
+  <!--Note: Depending on your requirement ( considering defined Regular Expressions ) you should make sure certain characters/words are NOT filtered-->
+  <!--Note: Your filters should not conflict with Pattern Reductions. If you filter out important words you may render a pattern reduction useless-->
+</Siml>

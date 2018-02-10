@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SimlProject>
+  <Profile>Classic</Profile>
+  <Name>SIML Widget Bot KB</Name>
+  <Directory>SimlBotKB</Directory>
+  <BotName>Maya</BotName>
+  <Personality>None</Personality>
+  <Author>Synthetic Intelligence Network</Author>
+  <Description>Just a sample bot knowledge-base for demostration purpose.</Description>
+  <Date>18-02-11 03:56:48.850</Date>
+  <Notes></Notes>
+</SimlProject>
