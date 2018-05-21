@@ -5,7 +5,7 @@
       <Pattern>/START</Pattern>
       <Response>Hello there! I am SIML Classic</Response>
     </Model>
-    
+
     <Model>
       <Pattern>*</Pattern>
       <Response>You typed: "<Match />"</Response>
