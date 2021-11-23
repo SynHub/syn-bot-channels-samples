@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WidgetChannelSample
+namespace WidgetChannelSite
 {
 
 

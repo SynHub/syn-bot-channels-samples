@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WidgetChannelSample {
-    
-    
-    public partial class BotService {
+namespace WidgetChannelSite
+{
+
+
+    public partial class ChatService
+    {
     }
 }
